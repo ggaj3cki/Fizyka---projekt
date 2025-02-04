@@ -6,7 +6,7 @@ from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg,  
 NavigationToolbar2Tk)
 
-G = 9.81
+G = 9.81 # Gravitational constant
 V0 = 0 
 while(V0 < 10 or V0 > 30):
     try:
