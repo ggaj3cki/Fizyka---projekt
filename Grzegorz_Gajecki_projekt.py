@@ -1,3 +1,5 @@
+#Author: Grzegorz Gajecki
+
 import numpy as np
 import math
 from tkinter import *
