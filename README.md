@@ -8,20 +8,22 @@ Projekt przedstawia symulację rzutu ukośnego w języku programowani Python. Do
 - matplotlib - zewnętrzna biblioteka używana do generowania wykresów.
 
 W projekcie zostały użyte m.in. następujące wzory lub ich przekształcenia :
-  **Prędkość pozioma:**
-$$ v_x = v_0 \cos(\theta) $$
+**Prędkość pozioma:**
+v_x = v_0 * cos(θ)
 
 **Prędkość początkowa pionowa:**
-$$ v_{y0} = v_0 \sin(\theta) $$
+v_y0 = v_0 * sin(θ)
 
 **Maksymalna odległość (zasięg):**
-$$ x_{max} = \frac{v_0^2 \sin(2\theta)}{g} $$
+x_max = (v_0² * sin(2θ)) / g
 
 **Równanie toru ruchu:**
-$$ y(x) = x \tan(\theta) - \frac{g x^2}{2 v_0^2 \cos^2(\theta)} $$
+y(x) = x * tan(θ) - (g * x²) / (2 * v_0² * cos²(θ))
 
 **Praca równa energii kinetycznej:**
-$$ W = E_k = \frac{1}{2} m v_0^2 $$
+W = E_k = (1/2) * m * v_0²
+
+![image](https://github.com/user-attachments/assets/3ee93fb2-7411-463c-9c31-9dff70575fe4)
 
 Do uruchomienia projektu niezbędny jest interpreter języka Python - można go pobrać [Z tej strony](https://www.python.org/)
 Po jego zainstalowaniu należy zainstalować również biblioteki, można to zrobić po pobraniu udostępnionych przeze mnie plików przy użyciu polecenia (na Windows):
