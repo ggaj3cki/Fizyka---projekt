@@ -92,6 +92,7 @@ def plot():
     fig = Figure(figsize = (10, 10), 
                  dpi = 100) 
 
+    # arrays of values used for generating the graph
     ploty = np.array([equationOfMotion(i.item()) for i in np.linspace(0, totalRange, 100)])
     plotx = np.array([round(i.item(), 2) for i in np.linspace(0, totalRange, 100)])
   
