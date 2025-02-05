@@ -7,7 +7,8 @@ Projekt przedstawia symulację rzutu ukośnego w języku programowani Python. Do
 - numpy - zewnętrzna biblioteka używana m.in. do obliczeń matematycznych
 - matplotlib - zewnętrzna biblioteka używana do generowania wykresów.
 
-W projekcie zostały użyte m.in. następujące wzory lub ich przekształcenia :
+W projekcie zostały użyte m.in. następujące wzory lub ich przekształcenia:
+
 **Prędkość pozioma:**
 v_x = v_0 * cos(θ)
 
